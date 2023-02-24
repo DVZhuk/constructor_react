@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/constructor_react/static/css/main.7cfe900f.css",
+    "main.js": "/constructor_react/static/js/main.6bfb6ab4.js",
+    "static/media/PTAstraSans-Regular.woff": "/constructor_react/static/media/PTAstraSans-Regular.2f70b02615a3a85aad91.woff",
+    "static/media/PTAstraSans-Bold.woff": "/constructor_react/static/media/PTAstraSans-Bold.18aa1355bdc8792499cc.woff",
+    "static/media/PTAstraSans-Bold.woff2": "/constructor_react/static/media/PTAstraSans-Bold.afac9573bb89a270903d.woff2",
+    "static/media/PTAstraSans-Regular.woff2": "/constructor_react/static/media/PTAstraSans-Regular.e9dc96e8934ae4776ca9.woff2",
+    "static/media/montserrat-500.woff": "/constructor_react/static/media/montserrat-500.6e1f7d3787594a69ed45.woff",
+    "static/media/inter-500.woff": "/constructor_react/static/media/inter-500.81602ffa67c5bf3343f6.woff",
+    "static/media/montserrat-500.woff2": "/constructor_react/static/media/montserrat-500.057bc00d3ab1fcfca068.woff2",
+    "static/media/inter-500.woff2": "/constructor_react/static/media/inter-500.8d05f4f22e6fac862fe1.woff2",
+    "static/media/icon-delete.svg": "/constructor_react/static/media/icon-delete.fe51b371b28ddbc0525f.svg",
+    "index.html": "/constructor_react/index.html",
+    "main.7cfe900f.css.map": "/constructor_react/static/css/main.7cfe900f.css.map",
+    "main.6bfb6ab4.js.map": "/constructor_react/static/js/main.6bfb6ab4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7cfe900f.css",
+    "static/js/main.6bfb6ab4.js"
+  ]
+}
