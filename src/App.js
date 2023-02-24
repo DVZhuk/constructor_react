@@ -1,23 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from 'react';
+import { AuthContext } from './components/Context/Context';
+import GridSelect from './components/GridSelect';
+import Layout from './components/Layout';
 
 function App() {
+  const [layoutSelect, setLayoutSelect] = useState('layout--landing');
+  const [resetLayout, setResetLayout] = useState(false)
+
+  // const handleChange = (event) => {
+  //   setGridSelect(event.target.value)
+  //   console.log(event)
+  // }
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <AuthContext.Provider value={{
+        resetLayout,
+        setResetLayout
+      }}>
+        <GridSelect setLayoutSelect={setLayoutSelect}/>
+        <Layout layoutSelect={layoutSelect}/>
+      </AuthContext.Provider>
+      
     </div>
   );
 }
